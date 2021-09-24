@@ -1,48 +1,55 @@
+/*BARRE DU HAUT*/
 header img
 {
     width: 150px;
 }
 
-header nav
-{
-    padding-left: 65%;
-    font-size: 20px;
-    margin-top: -30px;
-    
-}
-
-
-
-nav a
+header a
 {
     text-decoration:none; 
     color:black;
     font-weight: bold;
-
-
-}
-
-html
-{
-    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-header div
-{
-    margin-left: 50%;
-    justify-content:center;
-    
 }
 
  a button 
- {
-    
+ { 
      color:black;
-    width: 150px;
-    height: auto;
+    width: auto;
     border-radius: 50px;
     font-weight: bold;
     font-size: 80%;
-    ;
  }
+
+ /*IMAGE BLEU*/
+
+ .contenant {
+    position: relative;
+    text-align: center;
+    color: red;
+  }
+  
+  .texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*4 IMAGES*/
+  .images4
+{
+    position: relative;
+    text-align:left;
+    color: red;
+   
+}
+
+.texte_hdroite
+{
+    position: absolute;
+    bottom: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
